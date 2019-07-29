@@ -8,7 +8,8 @@
         My good Nuxt.js project
       </h2>
     </div>
-  <div v-html="hello"></div>
+  <!--div v-html="hello"></div-->
+  <div v-html="$md.render(model)"></div>
   <ul>
     <li v-for="data in datas" :key=data.path >{{ data.path }}</li>
   </ul>
@@ -18,19 +19,25 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import hello from '../hello.md'
+//import hello from '../hello.md'
 import article_data from '../article/data.json'
+import axios from 'axios';
 
 
 export default {
-  computed: {
+  /*computed: {
       hello() {
-        return hello
+        return 
       }
+  },*/
+  async mounted() {
+    const { data: model } = await axios.get("https://raw.githubusercontent.com/hukuda222/ex3-emulator/master/README.md",{transformResponse: d => d})
+    this.model = model
   },
   data:()=>{
     return {
-      datas:article_data
+      datas:article_data,
+      model:""
     }
   }
 }

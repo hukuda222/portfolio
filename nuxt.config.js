@@ -1,9 +1,4 @@
-const routerBase = process.env.DEPLOY_ENV === 'GH_PAGES' ? {
-  router: {
-    base: '/portfolio/'
-  }
-} : {}
-
+console.log(process.env.DEPLOY_ENV)
 
 export default {
   mode: 'spa',
@@ -22,7 +17,7 @@ export default {
     ]
   },
   router: {
-    base: '/portfolio/'
+    base: process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' :'/'
   },
   /*
   ** Customize the progress-bar color
@@ -51,14 +46,15 @@ export default {
     'bootstrap-vue/nuxt',
     '@nuxtjs/markdownit'
   ],
-    markdownit: {
+  markdownit: {
     preset: 'default',
     linkify: true,
     breaks: true,
     use: [
       'markdown-it-div',
       'markdown-it-attrs'
-    ]
+    ],
+    injected: true
   },
   /*
   ** Build configuration
