@@ -21,7 +21,9 @@ export default {
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
-  routerBase,
+  router: {
+    base: '/portfolio/'
+  },
   /*
   ** Customize the progress-bar color
   */
