@@ -5,7 +5,7 @@
   <h1 class="mt-5">Blog</h1>
     <ul>
     <li v-for="article in article_list" :key=article.path >
-      <nuxt-link v-bind:to="root+'article/'+article.path">
+      <nuxt-link v-bind:to="'article/'+article.path">
             {{ article.title }}
       </nuxt-link>
     </li>
@@ -27,10 +27,8 @@ export default {
     
   },*/
   data:()=> {	
-    const root = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' :'/';
     return {
-      article_list:article_list,
-      root:root
+      article_list:article_list
     };
   },
   components:{

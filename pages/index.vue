@@ -2,7 +2,7 @@
   <div>
     <Top></Top>
   <div class="container">
-  <h1 class="mt-5">TOP</h1>
+  <h1 class="mt-5">Top</h1>
     <div v-html="topmd"></div>
   </div>
   </div>
