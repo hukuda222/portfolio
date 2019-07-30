@@ -5,18 +5,26 @@
         <a class="navbar-brand" href="/">hukuda222の諸々</a>
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="/">TOP</a>
+      <a class="nav-link" v-bind:href="root">TOP</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/about">About</a>
+      <a class="nav-link" v-bind:href="root+'about'">About</a>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/article_list">Blog</a>
+      <a class="nav-link" v-bind:href="root+'article_list'">Blog</a>
     </li>
   </ul>
 </nav>
 </header>
   </div>
 </template>
+
+<script>
+export default {
+  data:()=> {
+	const root = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' :'/';
+    return {root:root};
+  }}
+</script>
 
 

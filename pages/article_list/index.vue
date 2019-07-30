@@ -5,7 +5,7 @@
   <h1 class="mt-5">Blog</h1>
     <ul>
     <li v-for="article in article_list" :key=article.path >
-      <a v-bind:href="'/article/'+article.path">
+      <a v-bind:href="root+'article/'+article.path">
             {{ article.title }}
       </a>
     </li>
@@ -26,8 +26,12 @@ export default {
      this.article_list = res;
     
   },*/
-  data:()=> {
-    return {article_list:article_list};
+  data:()=> {	
+    const root = process.env.DEPLOY_ENV === 'GH_PAGES' ? '/portfolio/' :'/';
+    return {
+      article_list:article_list,
+      root:root
+    };
   },
   components:{
     Top

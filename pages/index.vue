@@ -13,7 +13,6 @@ import Top from '../components/Top.vue'
 import topmd from '../static_article/top.md'
 import axios from 'axios';
 
-
 export default {
   computed: {
       topmd() {
