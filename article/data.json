@@ -1,8 +1,10 @@
 [
   {
-    "path":"~/article/po.md"
+    "path":"~/article/2019_07_30_1.md",
+    "title": "Nuxt.jsでブログ作った"
   },
   {
-    "path":"~/article/yo.md"
+    "path":"~/article/2019_07_30_2.md",
+    "title":"特にないけどなんか"
   }
 ]
