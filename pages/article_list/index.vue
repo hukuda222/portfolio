@@ -20,7 +20,6 @@
 
 <script>
 import Logo from '~/components/Logo.vue'
-import top from '../static_article/top.md'
 import article_data from '../article/data.json'
 import axios from 'axios';
 
