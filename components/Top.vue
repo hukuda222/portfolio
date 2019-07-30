@@ -1,18 +1,17 @@
 <template>
     <div>
 	<header>
-      <base href="router.base">
       <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
-        <a class="navbar-brand" href="/">hukuda222の諸々</a>
+        <nuxt-link class="navbar-brand" to="/">hukuda222の諸々</nuxt-link>
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" href="/">Top</a>
+      <nuxt-link class="nav-link" to="/">Top</nuxt-link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/about">About</a>
+      <nuxt-link class="nav-link" to="/about">About</nuxt-link>
     </li>
     <li class="nav-item">
-      <a class="nav-link" href="/article_list">Blog</a>
+      <nuxt-link class="nav-link" to="/article_list">Blog</nuxt-link>
     </li>
   </ul>
 </nav>
