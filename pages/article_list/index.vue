@@ -5,9 +5,9 @@
   <h1 class="mt-5">Blog</h1>
     <ul>
     <li v-for="article in article_list" :key=article.path >
-      <a v-bind:href="root+'article/'+article.path">
+      <nuxt-link v-bind:to="root+'article/'+article.path">
             {{ article.title }}
-      </a>
+      </nuxt-link>
     </li>
   </ul>
   </div>

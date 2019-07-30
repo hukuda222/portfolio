@@ -5,7 +5,7 @@
         <a class="navbar-brand" href="/">hukuda222の諸々</a>
   <ul class="navbar-nav mr-auto">
     <li class="nav-item active">
-      <a class="nav-link" v-bind:href="root">TOP</a>
+      <nuxt-link class="nav-link" v-bind:to="root">TOP</nuxt-link>
     </li>
     <li class="nav-item">
       <a class="nav-link" v-bind:href="root+'about'">About</a>
