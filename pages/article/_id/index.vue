@@ -11,14 +11,15 @@
 <script>
 import axios from 'axios';
 import Top from '../../../components/Top.vue'
+import all_article_data from '../../../article/data.json'
 
 export default {
   validate({params}) {
     return /^[0-9a-z]+$/.test(params.id)
   },
   async asyncData({ params }) {    
-    const { data: res } = await axios.get(`https://raw.githubusercontent.com/hukuda222/portfolio/master/article/${params.id}.md`);
-    return {article_data:res};
+    //const { data: res } = await axios.get(`https://raw.githubusercontent.com/hukuda222/portfolio/master/article/${params.id}.md`);
+    return {article_data:all_article_data[`${params.id}.md`]};
   },
   data:()=>{
     return {
