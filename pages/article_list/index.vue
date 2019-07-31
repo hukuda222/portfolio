@@ -10,7 +10,7 @@
          <div class="card-body">
            <h4 class="card-title">{{ article.title }}</h4>
            <p class="card-text">{{ article.preview }}</p>
-           <nuxt-link v-bind:to="'article/'+article.base" class="btn btn-primary">
+           <nuxt-link v-bind:to="'article?'+article.base" class="btn btn-primary">
             読む
            </nuxt-link>
          </div>
