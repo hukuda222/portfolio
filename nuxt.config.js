@@ -12,8 +12,13 @@ export default {
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
+    script:[
+      { src: '//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/highlight.min.js'},
+      { src: 'https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-AMS_HTML'  }
+    ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel:'stylesheet' , href:'//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.8/styles/default.min.css'}
     ]
   },
   router: {
@@ -52,7 +57,8 @@ export default {
     breaks: true,
     use: [
       'markdown-it-div',
-      'markdown-it-attrs'
+      'markdown-it-attrs',
+      'markdown-it-highlightjs'
     ],
     injected: true
   },

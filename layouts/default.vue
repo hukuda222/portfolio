@@ -51,4 +51,12 @@ html {
   color: #fff;
   background-color: #35495e;
 }
+
+
+pre{
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    color: #2c2c2f;
+    background: #f2f2f2;
+}
 </style>

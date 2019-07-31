@@ -1,6 +1,6 @@
 <template>
   <div>
-  <Top></Top>
+  <Top now="about"></Top>
   <div class="container">
     <h1 class="mt-5">About</h1>
     <div v-html="aboutmd"></div>
