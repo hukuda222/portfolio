@@ -11,7 +11,8 @@ hukuda222です。
 2014年 11月 全国高校・大学ソフトウェア創作コンテスト 「あいちゃれ2014」 Unity賞
 2016年10月 基本情報技術者資格
 2019年1月 DISCO presents コードコンテスト2019本戦 出場
-2019年7月 AtCoder rating:1583(Max 1601)
+2019年7月 ICPC 2019 国内予選 137位(PPP)
+2019年8月 AtCoder rating:1583(Max 1601)
 
 <br>
 <br>
@@ -19,4 +20,5 @@ hukuda222です。
 
 ## リンク
 [github](https://github.com/hukuda222)
-[atcoder](https://atcoder.jp/users/grayf)
+[AtCoder](https://atcoder.jp/users/grayf)
+[所属サークルで書いた記事](https://trap.jp/author/hukuda222/)
