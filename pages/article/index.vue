@@ -5,6 +5,7 @@
       <h1 class="mt-5"></h1>
     <div v-html="$md.render(article_data)"></div>
   </div>
+  <br><br><br>
   </div>
 </template>
 

@@ -1,14 +1,5 @@
 {
   "fileMap": {
-    "output/201907302.json": {
-      "preview": "なんか数式使った記事\n\nせっかく数式を書けるようにしたので、なんか書きます。\n\n$e^{i\\pi}+1=0$",
-      "title": "なんか数式使った記事",
-      "dir": "output",
-      "base": "201907302.json",
-      "ext": ".json",
-      "sourceBase": "201907302.md",
-      "sourceExt": ".md"
-    },
     "output/201907301.json": {
       "preview": "Nuxt.jsでブログ作った\n\nブログはサーバーを立てて記事情報を管理することが多いと思うんですが、",
       "title": "Nuxt.jsでブログ作った",
@@ -16,6 +7,15 @@
       "base": "201907301.json",
       "ext": ".json",
       "sourceBase": "201907301.md",
+      "sourceExt": ".md"
+    },
+    "output/201907302.json": {
+      "preview": "abc135-fの考察\n\nやったので考察を書きます。まぁ、本番はabc135-dで時間を溶かして問題すら読まなかったんですが。",
+      "title": "abc135-fの考察",
+      "dir": "output",
+      "base": "201907302.json",
+      "ext": ".json",
+      "sourceBase": "201907302.md",
       "sourceExt": ".md"
     }
   },
