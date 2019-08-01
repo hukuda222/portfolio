@@ -12,7 +12,7 @@
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
     "article": "rm -rf ./article/*.json && processmd './article/*.{yml,md}' --stdout --preview 100 --previewDelimiter '\n' --outputDir output > ./article/sum.json && node article/get_data.js",
-    "deploy": "npm run article && push-dir --dir=dist --branch=gh-pages --cleanup"
+    "deploy": "push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
     "@nuxtjs/markdownit": "^1.2.6",
