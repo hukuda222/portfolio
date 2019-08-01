@@ -6,7 +6,7 @@
   <br>
   <div class="row">
     <div v-for="article in article_list" :key=article.base class="col-lg-4">
-      <div class="card" style="width: 20rem;height:13rem">
+      <div class="card" style="width: 20rem;height:15rem">
          <div class="card-body">
            <h4 class="card-title">{{ article.title }}</h4>
            <p class="card-text">{{ article.preview }}</p>

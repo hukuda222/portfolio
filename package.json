@@ -11,7 +11,7 @@
     "generate": "nuxt generate",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
     "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
-    "article": "rm -rf ./article/*.json && processmd './article/*.{yml,md}' --stdout --preview 90 --previewDelimiter '\n' --outputDir output > ./article/sum.json && node article/get_data.js",
+    "article": "rm -rf ./article/*.json && processmd './article/*.{yml,md}' --stdout --preview 100 --previewDelimiter '\n' --outputDir output > ./article/sum.json && node article/get_data.js",
     "deploy": "npm run article && push-dir --dir=dist --branch=gh-pages --cleanup"
   },
   "dependencies": {
