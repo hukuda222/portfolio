@@ -1,6 +1,7 @@
 # hukuda222
 
-> My good Nuxt.js project
+ポートフォリオ兼ブログのようなwebページです。ブログ記事の内容が増えてきたら記事を動的に管理しようと思っていますが、今は大した量ではないのでjsonで保存しています。
+https://hukuda222.github.io/portfolio/ 
 
 ## Build Setup
 
