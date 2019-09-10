@@ -18,6 +18,16 @@ $ npm run start
 
 # generate static project
 $ npm run generate
+
+# generate static project for gh-pages
+$ npm run generate:gh-pages
+
+# create article list
+$ npm run article
+
+# deploy
+$ npm run deploy
+
 ```
 
 For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).

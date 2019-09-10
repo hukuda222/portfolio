@@ -12,7 +12,7 @@ hukuda222です。
 2016年10月 基本情報技術者資格
 2019年 1月 DISCO presents コードコンテスト2019本戦 出場
 2019年 7月 ICPC 2019 国内予選 137位(PPP)
-2019年 8月 AtCoder rating:1583(Max 1601)
+2019年 9月 AtCoder rating:<font color="Blue">1619</font>(Max <font color="Blue">1619</font>)
 
 <br>
 <br>
