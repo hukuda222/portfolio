@@ -13,7 +13,7 @@ hukuda222です。
 2019年 1月 DISCO presents コードコンテスト2019本戦 出場
 2019年 7月 ICPC 2019 国内予選 137位(PPP)
 2019年 10月 第242回 自然言語処理研究発表会にて発表
-2019年 10月 AtCoder rating:<font color="Blue">1721</font>(Max <font color="Blue">1721</font>)
+2020年 1月 AtCoder rating:<font color="Blue">1666</font>(Max <font color="Blue">1736</font>)
 
 <br>
 <br>
