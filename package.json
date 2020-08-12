@@ -29,6 +29,6 @@
     "nodemon": "^1.18.9",
     "processmd": "^4.4.2",
     "push-dir": "^0.4.1",
-    "serialize-javascript": "^2.1.2"
+    "serialize-javascript": "^3.1.0"
   }
 }
